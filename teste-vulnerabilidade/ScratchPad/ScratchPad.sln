@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePasswordStrength", "GooglePasswordStrength\GooglePasswordStrength.csproj", "{593A1690-E0C0-4C91-A532-2F0D68FB29E5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePasswordStrength.Web", "GooglePasswordStrength.Web\GooglePasswordStrength.Web.csproj", "{C324434A-637F-4C59-AD86-3A1197CC8593}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{593A1690-E0C0-4C91-A532-2F0D68FB29E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593A1690-E0C0-4C91-A532-2F0D68FB29E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593A1690-E0C0-4C91-A532-2F0D68FB29E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593A1690-E0C0-4C91-A532-2F0D68FB29E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C324434A-637F-4C59-AD86-3A1197CC8593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C324434A-637F-4C59-AD86-3A1197CC8593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C324434A-637F-4C59-AD86-3A1197CC8593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C324434A-637F-4C59-AD86-3A1197CC8593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
